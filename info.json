@@ -1,0 +1,31 @@
+{
+    "name": "sP-UseCasesBFA",
+    "version": "1.0.0",
+    "type": "solutionpack",
+    "local": true,
+    "label": "SP - Use Cases BFA",
+    "dependencies": [
+	   {
+            "name": "incidentResponse",
+            "type": "solutionpack",
+            "label": "Incident Response",
+            "install": "mandatory"
+        }],
+    "prerequisite": [],
+    "publisher": "Fortinet",
+    "description": "Investigates login failures and also identifies other impacted assets that have been victims of the brute force attempts from a particular source of attack",
+    "fsrMinCompatibility": "7.2.0",
+    "date": "2022-02-02T11:43:08+00:00",
+    "exported_from": "swati-ha1.fortisoar.in",
+    "exported_by": "CS Admin",
+    "contents": {
+        "module": {
+            "scenario": []
+        },
+        "playbookCollections": [
+            {
+                "name": "04 - Use Cases"
+            }
+        ]
+    }
+}
