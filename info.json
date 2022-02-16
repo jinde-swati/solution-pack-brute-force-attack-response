@@ -1,9 +1,9 @@
 {
-    "name": "sP-UseCasesBFA",
+    "name": "bruteForceAttackResponse",
     "version": "1.0.0",
     "type": "solutionpack",
     "local": true,
-    "label": "SP - Use Cases BFA",
+    "label": "Brute Force Attack Response",
     "dependencies": [
         {
             "name": "fortiSOAREssentials",
@@ -20,24 +20,30 @@
             "minVersion": null
         }
     ],
-    "prerequisite": [],
+    "prerequisite": [
+        "Configure the Virustotal Connector",
+        "Configure the Splunk Connector"
+    ],
     "publisher": "Fortinet",
-    "description": null,
+    "description": "Investigates login failures and also identifies other impacted assets that have been victims of the brute force attempts from a particular source of attack",
     "fsrMinCompatibility": "7.2.0",
+    "date": "2022-02-16T07:35:52+00:00",
+    "exported_from": "qa-env2.fortisoar.in",
+    "exported_by": "CS Admin",
     "contents": {
-        "module": {
+        "modules": {
             "scenario": {
                 "name": "Scenario",
                 "apiName": "scenario"
             }
         },
-        "playbookCollections": [
+        "playbooks": [
             {
                 "name": "04 - Use Cases"
             }
         ],
         "recordSets": {
-            "scenario": 2
+            "scenario": 3
         }
     }
 }
