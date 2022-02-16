@@ -27,9 +27,6 @@
     "publisher": "Fortinet",
     "description": "Investigates login failures and also identifies other impacted assets that have been victims of the brute force attempts from a particular source of attack",
     "fsrMinCompatibility": "7.2.0",
-    "date": "2022-02-16T07:35:52+00:00",
-    "exported_from": "qa-env2.fortisoar.in",
-    "exported_by": "CS Admin",
     "contents": {
         "modules": {
             "scenario": {
@@ -43,7 +40,7 @@
             }
         ],
         "recordSets": {
-            "scenario": 3
+            "scenario": 2
         }
     }
 }
