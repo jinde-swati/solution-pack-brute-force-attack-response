@@ -24,8 +24,8 @@
         "modifyDate": 1641381072,
         "id": "1",
         "recordTags": [
-            "FortiSIEM",
-            "FortiSOAR"
+            "FortiSOAR",
+            "FortiSIEM"
         ]
     },
     {
@@ -68,8 +68,8 @@
         "modifyDate": 1634722536,
         "id": "2",
         "recordTags": [
-            "BFA",
-            "FortiSOAR"
+            "FortiSOAR",
+            "BFA"
         ]
     }
 ]
