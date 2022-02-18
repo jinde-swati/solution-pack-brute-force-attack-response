@@ -1,0 +1,19 @@
+{
+    "@context": "\/api\/3\/contexts\/WorkflowCollection",
+    "@type": "WorkflowCollection",
+    "name": "04 - Use Cases - Brute Force Attack",
+    "description": null,
+    "visible": true,
+    "image": null,
+    "uuid": "59667fcc-7feb-4ba4-a5a2-e03a9287f857",
+    "id": 22,
+    "createUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
+    "createDate": 1645196575.211692,
+    "modifyUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
+    "modifyDate": 1645196806.051009,
+    "recordTags": [
+        "bruteForceAttackResponse-1.0.0",
+        "FSRSolutionPack"
+    ],
+    "deletedAt": null
+}
