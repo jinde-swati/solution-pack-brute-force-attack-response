@@ -6,9 +6,9 @@
     "label": "Brute Force Attack Response",
     "dependencies": [
         {
-            "name": "fortiSOAREssentials",
+            "name": "sOARFramework",
             "type": "solutionpack",
-            "label": "FortiSOAR Essentials",
+            "label": "SOAR Framework",
             "version": "1.0.0",
             "minVersion": null
         },
@@ -45,9 +45,6 @@
             {
                 "name": "04 - Use Cases - Brute Force Attack"
             },
-            {
-                "name": "16 - Scenario - Brute Force Attack Scenario"
-            }
         ],
         "recordSets": {
             "scenario": 2
