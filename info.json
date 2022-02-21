@@ -44,7 +44,7 @@
         "playbooks": [
             {
                 "name": "04 - Use Cases - Brute Force Attack"
-            },
+            }
         ],
         "recordSets": {
             "scenario": 2
