@@ -6,7 +6,7 @@
     "tag": "#ManualAction",
     "description": "Investigates login failures and also identifies other impacted assets that have been victims of the brute force attempts from a particular source of attack",
     "isActive": true,
-    "debug": true,
+    "debug": false,
     "singleRecordExecution": false,
     "remoteExecutableFlag": false,
     "parameters": [],
