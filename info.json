@@ -1,0 +1,54 @@
+{
+    "name": "bruteForceAttackResponse",
+    "version": "1.0.0",
+    "type": "solutionpack",
+    "local": true,
+    "label": "Brute Force Attack Response",
+    "dependencies": [
+        {
+            "name": "sOARFramework",
+            "type": "solutionpack",
+            "label": "SOAR Framework",
+            "version": "1.0.0",
+            "minVersion": null
+        },
+        {
+            "name": "socSimulator",
+            "type": "solutionpack",
+            "label": "SOC Simulator",
+            "version": "1.0.0",
+            "minVersion": null
+        }
+    ],
+    "prerequisite": [
+        "Ensure that SOC Simulator connector is configured",
+        "Ensure that Splunk Connector is configured"
+		"Ensure that Virustotal Connector is configured"
+    ],
+    "publisher": "Fortinet",
+    "category": [],
+    "certified": "true",
+    "supportInfo": "support@fortinet.com",
+    "help": "https://github.com/fortinet-fortisoar/solution-pack-brute-force-attack-response",
+    "description": "Investigates login failures and also identifies other impacted assets that have been victims of the brute force attempts from a particular source of attack",
+    "fsrMinCompatibility": "7.2.0",
+    "date": "2022-02-16T13:35:46+00:00",
+    "exported_from": "master.fortisoar.com",
+    "exported_by": "CS Admin",
+    "contents": {
+        "modules": {
+            "scenario": {
+                "name": "Scenario",
+                "apiName": "scenario"
+            }
+        },
+        "playbooks": [
+            {
+                "name": "04 - Use Cases - Brute Force Attack"
+            },
+        ],
+        "recordSets": {
+            "scenario": 2
+        }
+    }
+}
