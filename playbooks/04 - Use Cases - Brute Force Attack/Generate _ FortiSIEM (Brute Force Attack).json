@@ -11,37 +11,11 @@
     "remoteExecutableFlag": false,
     "parameters": [],
     "synchronous": false,
-    "lastModifyDate": 1645196965,
+    "lastModifyDate": 1646290898,
     "collection": "\/api\/3\/workflow_collections\/59667fcc-7feb-4ba4-a5a2-e03a9287f857",
     "versions": [],
-    "triggerStep": "\/api\/3\/workflow_steps\/3e1cf900-216b-49a5-b801-2439f7097b67",
+    "triggerStep": "\/api\/3\/workflow_steps\/22aa0ba9-a74b-455a-b108-00ca9dfe4fdf",
     "steps": [
-        {
-            "@type": "WorkflowStep",
-            "name": "Start",
-            "description": null,
-            "arguments": {
-                "step_variables": []
-            },
-            "status": null,
-            "top": "40",
-            "left": "40",
-            "stepType": "\/api\/3\/workflow_step_types\/b348f017-9a94-471f-87f8-ce88b6a7ad62",
-            "uuid": "3e1cf900-216b-49a5-b801-2439f7097b67"
-        },
-        {
-            "@type": "WorkflowStep",
-            "name": "Configuration",
-            "description": null,
-            "arguments": {
-                "alert_data": "{\n  \"incident_data\": {\n    \"id\": \"0\",\n    \"nid\": \"1613\",\n    \"index\": \"0\",\n    \"custId\": \"1\",\n    \"dataStr\": null,\n    \"eventType\": \"PH_RULE_ANOMALY_FAILED_LOGON\",\n    \"attributes\": {\n      \"count\": \"232\",\n      \"customer\": \"Super\",\n      \"hostName\": \"ec2-1.compute-1.amazonaws.com\",\n      \"eventName\": \"Sudden Increase in Failed Logons To A Host\",\n      \"eventType\": \"PH_RULE_ANOMALY_FAILED_LOGON\",\n      \"bizService\": \"\",\n      \"hostIpAddr\": \"172.168.12.35\",\n      \"incidentId\": \"1613\",\n      \"phRecvTime\": \"Thu Apr 02 04:36:30 UTC 2020\",\n      \"incidentSrc\": \"\",\n      \"incidentReso\": \"1 (Open)\",\n      \"eventSeverity\": \"7\",\n      \"incidentRptIp\": \"172.168.12.35\",\n      \"incidentDetail\": \"count:12, avgMatchedEvents:7.47,\",\n      \"incidentStatus\": \"0 (Active)\",\n      \"incidentTarget\": \"hostName:ec2-1.compute-1.amazonaws.com, hostIpAddr:172.168.12.35,\",\n      \"incidentExtUser\": \"\",\n      \"phEventCategory\": \"1 (Incident)\",\n      \"eventSeverityCat\": \"Medium\",\n      \"incidentComments\": \"\",\n      \"incidentLastSeen\": \"Thu Apr 02 04:36:30 UTC 2020\",\n      \"incidentTicketId\": \"\",\n      \"incidentFirstSeen\": \"Tue Jan 28 17:36:30 UTC 2020\",\n      \"incidentViewUsers\": \"\",\n      \"phIncidentImpacts\": \"Server\",\n      \"incidentNotiStatus\": \"\",\n      \"incidentRptDevName\": \"ec2-1.compute-1.amazonaws.com\",\n      \"incidentTicketUser\": \"\",\n      \"incidentViewStatus\": \"1 (Read)\",\n      \"phIncidentCategory\": \"4\",\n      \"incidentClearedTime\": \"Thu Jan 01 00:00:00 UTC 1970\",\n      \"incidentClearedUser\": \"\",\n      \"incidentExtTicketId\": \"\",\n      \"incidentRptDevStatus\": \"1 (Pending)\",\n      \"incidentTicketStatus\": \"6 (None)\",\n      \"incidentClearedReason\": \"\",\n      \"incidentExtTicketType\": \"\",\n      \"phSubIncidentCategory\": \"PH_RULE_SECURITY_INIT_ACCESS\",\n      \"incidentExtClearedTime\": \"Thu Jan 01 00:00:00 UTC 1970\",\n      \"incidentExtTicketState\": \"\",\n      \"incidentNotiRecipients\": \"\"\n    },\n    \"receiveTime\": \"2020-04-02T04:36:30Z\"\n  },\n  \"associated_events\": {\n    \"event_ids\": \"3004886114047230960, \",\n    \"event_details\": [\n      [\n        {\n          \"id\": \"3004886114047230960\",\n          \"nid\": \"3004886114047230960\",\n          \"index\": \"0\",\n          \"custId\": \"1\",\n          \"dataStr\": null,\n          \"eventType\": \"Generic_Unix_SSH_Invalid_User\",\n          \"attributes\": {\n            \"user\": \"guest\",\n            \"count\": \"1\",\n            \"eventId\": \"3004886114047230960\",\n            \"customer\": \"Super\",\n            \"destName\": \"ec2-18-207-7-91\",\n            \"srcIpAddr\": \"188.219.154.228\",\n            \"procName\": \"sshd\",\n            \"eventName\": \"Failed SSH logon\",\n            \"eventType\": \"Generic_Unix_SSH_Invalid_User\",\n            \"reptModel\": \"Unix\",\n            \"destIpAddr\": \"172.168.12.35\",\n            \"deviceTime\": \"Thu Apr 02 04:35:44 UTC 2020\",\n            \"parserName\": \"UnixParser\",\n            \"phRecvTime\": \"Thu Apr 02 04:35:44 UTC 2020\",\n            \"reptVendor\": \"Generic\",\n            \"collectorId\": \"1\",\n            \"eventAction\": \"0 (Permit)\",\n            \"rawEventMsg\": \"<86>Apr  2 04:35:44 ec2-18-207-7-91 sshd[9000]: input_userauth_request: invalid user guest\",\n            \"reptDevName\": \"ec2-1.compute-1.amazonaws.com\",\n            \"timeSkewSec\": \"0\",\n            \"eventParsedOk\": \"1\",\n            \"eventSeverity\": \"3\",\n            \"reptDevIpAddr\": \"172.168.12.35\",\n            \"relayDevIpAddr\": \"172.168.12.35\",\n            \"phEventCategory\": \"0 (External)\",\n            \"eventRuleTrigger\": \"1\",\n            \"eventSeverityCat\": \"LOW\",\n            \"extEventRecvProto\": \"Syslog\"\n          },\n          \"receiveTime\": \"2020-04-02T04:35:44Z\"\n        }\n      ]\n    ]\n  }\n}"
-            },
-            "status": null,
-            "top": "140",
-            "left": "220",
-            "stepType": "\/api\/3\/workflow_step_types\/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
-            "uuid": "94719994-df79-4a1c-85a8-928b811ab3d6"
-        },
         {
             "@type": "WorkflowStep",
             "name": "Create Alert",
@@ -149,38 +123,59 @@
             "top": "227",
             "left": "360",
             "stepType": "\/api\/3\/workflow_step_types\/2597053c-e718-44b4-8394-4d40fe26d357",
-            "uuid": "cfa53c49-7791-476f-99d2-572ae0b2a035"
+            "uuid": "ef09d18c-ecf2-4ea4-9fab-779838fcde20"
+        },
+        {
+            "@type": "WorkflowStep",
+            "name": "Start",
+            "description": null,
+            "arguments": {
+                "step_variables": []
+            },
+            "status": null,
+            "top": "40",
+            "left": "40",
+            "stepType": "\/api\/3\/workflow_step_types\/b348f017-9a94-471f-87f8-ce88b6a7ad62",
+            "uuid": "22aa0ba9-a74b-455a-b108-00ca9dfe4fdf"
+        },
+        {
+            "@type": "WorkflowStep",
+            "name": "Configuration",
+            "description": null,
+            "arguments": {
+                "alert_data": "{\n  \"incident_data\": {\n    \"id\": \"0\",\n    \"nid\": \"1613\",\n    \"index\": \"0\",\n    \"custId\": \"1\",\n    \"dataStr\": null,\n    \"eventType\": \"PH_RULE_ANOMALY_FAILED_LOGON\",\n    \"attributes\": {\n      \"count\": \"232\",\n      \"customer\": \"Super\",\n      \"hostName\": \"ec2-1.compute-1.amazonaws.com\",\n      \"eventName\": \"Sudden Increase in Failed Logons To A Host\",\n      \"eventType\": \"PH_RULE_ANOMALY_FAILED_LOGON\",\n      \"bizService\": \"\",\n      \"hostIpAddr\": \"172.168.12.35\",\n      \"incidentId\": \"1613\",\n      \"phRecvTime\": \"Thu Apr 02 04:36:30 UTC 2020\",\n      \"incidentSrc\": \"\",\n      \"incidentReso\": \"1 (Open)\",\n      \"eventSeverity\": \"7\",\n      \"incidentRptIp\": \"172.168.12.35\",\n      \"incidentDetail\": \"count:12, avgMatchedEvents:7.47,\",\n      \"incidentStatus\": \"0 (Active)\",\n      \"incidentTarget\": \"hostName:ec2-1.compute-1.amazonaws.com, hostIpAddr:172.168.12.35,\",\n      \"incidentExtUser\": \"\",\n      \"phEventCategory\": \"1 (Incident)\",\n      \"eventSeverityCat\": \"MEDIUM\",\n      \"incidentComments\": \"\",\n      \"incidentLastSeen\": \"Thu Apr 02 04:36:30 UTC 2020\",\n      \"incidentTicketId\": \"\",\n      \"incidentFirstSeen\": \"Tue Jan 28 17:36:30 UTC 2020\",\n      \"incidentViewUsers\": \"\",\n      \"phIncidentImpacts\": \"Server\",\n      \"incidentNotiStatus\": \"\",\n      \"incidentRptDevName\": \"ec2-1.compute-1.amazonaws.com\",\n      \"incidentTicketUser\": \"\",\n      \"incidentViewStatus\": \"1 (Read)\",\n      \"phIncidentCategory\": \"4\",\n      \"incidentClearedTime\": \"Thu Jan 01 00:00:00 UTC 1970\",\n      \"incidentClearedUser\": \"\",\n      \"incidentExtTicketId\": \"\",\n      \"incidentRptDevStatus\": \"1 (Pending)\",\n      \"incidentTicketStatus\": \"6 (None)\",\n      \"incidentClearedReason\": \"\",\n      \"incidentExtTicketType\": \"\",\n      \"phSubIncidentCategory\": \"PH_RULE_SECURITY_INIT_ACCESS\",\n      \"incidentExtClearedTime\": \"Thu Jan 01 00:00:00 UTC 1970\",\n      \"incidentExtTicketState\": \"\",\n      \"incidentNotiRecipients\": \"\"\n    },\n    \"receiveTime\": \"2020-04-02T04:36:30Z\"\n  },\n  \"associated_events\": {\n    \"event_ids\": \"3004886114047230960, \",\n    \"event_details\": [\n      [\n        {\n          \"id\": \"3004886114047230960\",\n          \"nid\": \"3004886114047230960\",\n          \"index\": \"0\",\n          \"custId\": \"1\",\n          \"dataStr\": null,\n          \"eventType\": \"Generic_Unix_SSH_Invalid_User\",\n          \"attributes\": {\n            \"user\": \"guest\",\n            \"count\": \"1\",\n            \"eventId\": \"3004886114047230960\",\n            \"customer\": \"Super\",\n            \"destName\": \"ec2-18-207-7-91\",\n            \"srcIpAddr\": \"188.219.154.228\",\n            \"procName\": \"sshd\",\n            \"eventName\": \"Failed SSH logon\",\n            \"eventType\": \"Generic_Unix_SSH_Invalid_User\",\n            \"reptModel\": \"Unix\",\n            \"destIpAddr\": \"172.168.12.35\",\n            \"deviceTime\": \"Thu Apr 02 04:35:44 UTC 2020\",\n            \"parserName\": \"UnixParser\",\n            \"phRecvTime\": \"Thu Apr 02 04:35:44 UTC 2020\",\n            \"reptVendor\": \"Generic\",\n            \"collectorId\": \"1\",\n            \"eventAction\": \"0 (Permit)\",\n            \"rawEventMsg\": \"<86>Apr  2 04:35:44 ec2-18-207-7-91 sshd[9000]: input_userauth_request: invalid user guest\",\n            \"reptDevName\": \"ec2-1.compute-1.amazonaws.com\",\n            \"timeSkewSec\": \"0\",\n            \"eventParsedOk\": \"1\",\n            \"eventSeverity\": \"3\",\n            \"reptDevIpAddr\": \"172.168.12.35\",\n            \"relayDevIpAddr\": \"172.168.12.35\",\n            \"phEventCategory\": \"0 (External)\",\n            \"eventRuleTrigger\": \"1\",\n            \"eventSeverityCat\": \"LOW\",\n            \"extEventRecvProto\": \"Syslog\"\n          },\n          \"receiveTime\": \"2020-04-02T04:35:44Z\"\n        }\n      ]\n    ]\n  }\n}"
+            },
+            "status": null,
+            "top": "140",
+            "left": "211",
+            "stepType": "\/api\/3\/workflow_step_types\/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
+            "uuid": "997979d8-6db1-4db0-b546-e352cebbdf05"
         }
     ],
     "routes": [
         {
             "@type": "WorkflowRoute",
-            "name": "Start -> Configuration",
-            "targetStep": "\/api\/3\/workflow_steps\/94719994-df79-4a1c-85a8-928b811ab3d6",
-            "sourceStep": "\/api\/3\/workflow_steps\/3e1cf900-216b-49a5-b801-2439f7097b67",
+            "name": "Configuration -> Create Alert",
+            "targetStep": "\/api\/3\/workflow_steps\/ef09d18c-ecf2-4ea4-9fab-779838fcde20",
+            "sourceStep": "\/api\/3\/workflow_steps\/997979d8-6db1-4db0-b546-e352cebbdf05",
             "label": null,
             "isExecuted": false,
-            "uuid": "2d5141c8-f723-4726-aca2-2698340caca4"
+            "uuid": "67af28e3-be8f-4a39-89a5-445ed6d61d0c"
         },
         {
             "@type": "WorkflowRoute",
-            "name": "Configuration -> Create Alert",
-            "targetStep": "\/api\/3\/workflow_steps\/cfa53c49-7791-476f-99d2-572ae0b2a035",
-            "sourceStep": "\/api\/3\/workflow_steps\/94719994-df79-4a1c-85a8-928b811ab3d6",
+            "name": "Start -> Configuration",
+            "targetStep": "\/api\/3\/workflow_steps\/997979d8-6db1-4db0-b546-e352cebbdf05",
+            "sourceStep": "\/api\/3\/workflow_steps\/22aa0ba9-a74b-455a-b108-00ca9dfe4fdf",
             "label": null,
             "isExecuted": false,
-            "uuid": "8a539798-1804-4742-a05b-bd4a3bb0cb15"
+            "uuid": "4a3bb0f7-df64-4a8b-b69f-b0e7d52ac806"
         }
     ],
     "priority": null,
-    "uuid": "3bd9db08-c753-4f19-95d4-8a3b7021a29a",
-    "recordTags": [],
-    "id": "107",
-    "createUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
-    "createDate": 1645196789.047712,
-    "modifyUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
-    "modifyDate": 1645196965.204345,
+    "uuid": "77c44e01-4289-483b-9924-e2363aafe95e",
     "owners": [],
     "isPrivate": false,
-    "deletedAt": null
+    "deletedAt": null,
+    "recordTags": []
 }
