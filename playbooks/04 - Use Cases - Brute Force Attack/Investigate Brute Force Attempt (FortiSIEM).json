@@ -270,7 +270,7 @@
             "description": null,
             "arguments": {
                 "route": "1f292ab1-722b-4e76-aa10-c3922c590c72",
-                "title": "Investigate Brute Force",
+                "title": "Investigate Brute Force (FortiSIEM)",
                 "resources": [
                     "alerts"
                 ],

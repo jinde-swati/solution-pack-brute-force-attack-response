@@ -1,7 +1,7 @@
 {
     "@context": "\/api\/3\/contexts\/WorkflowCollection",
     "@type": "WorkflowCollection",
-    "name": "04 - Use Cases - Brute Force Attack",
+    "name": "02 - Use Case - Brute Force Attack",
     "description": null,
     "visible": true,
     "image": null,
