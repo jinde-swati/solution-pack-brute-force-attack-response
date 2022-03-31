@@ -43,7 +43,7 @@
         },
         "playbooks": [
             {
-                "name": "04 - Use Cases - Brute Force Attack"
+                "name": "02 - Use Case - Brute Force Attack"
             }
         ],
         "recordSets": {
