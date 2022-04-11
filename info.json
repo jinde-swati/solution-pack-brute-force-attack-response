@@ -20,10 +20,7 @@
             "minVersion": null
         }
     ],
-    "prerequisite": [
-        "Configure the Virustotal Connector",
-        "Configure the Splunk Connector"
-    ],
+    "prerequisite": "-Configure the Virustotal Connector\n- Configure the Splunk Connector",
     "publisher": "Fortinet",
     "category": [],
     "certified": "true",
